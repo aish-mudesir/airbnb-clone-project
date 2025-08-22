@@ -26,7 +26,7 @@ Description: Oversees the entire project lifecycle and coordinates between teams
 
 Responsibility: Defines project goals, manages timelines and resources, facilitates communication between stakeholders, and ensures deliverables meet requirements.
 
-## Technology stacks
+# Technology stacks
 
     Django
 
@@ -52,7 +52,7 @@ Graphene (if used with GraphQL + Django)
 
 Purpose in the project: A library that integrates GraphQL with Django, allowing developers to build flexible APIs and connect them with Django models.
 
-## Database Design
+# Database Design
 
    Users
 
@@ -134,7 +134,7 @@ status (e.g., pending, completed, refunded)
 
 Relationships: Each payment is linked to exactly one booking, but a booking can potentially have multiple payment attempts.
 
-## Feature Breakdown
+# Feature Breakdown
 
     User Management
 This feature handles registration, login, authentication, and user roles (e.g., guest, host, admin). It ensures secure access to the system and allows users to manage their profiles and activities.
@@ -154,7 +154,7 @@ Guests can leave reviews and ratings for properties they have booked. This featu
 Search & Filtering
 Allows users to search properties by location, price, amenities, and availability. This feature improves user experience by quickly connecting guests with the most relevant property options.
 
-## API Security
+# API Security
 
     Authentication
 
@@ -192,7 +192,7 @@ Description: Continuous monitoring, logging of user activity, and regular securi
 
 Importance: Helps detect suspicious activity early, supports incident response, and ensures long-term system security.
 
-## CI/CD Pipeline
+# CI/CD Pipeline
 
 Continuous Integration (CI) and Continuous Deployment (CD) pipelines are automated workflows that help developers integrate code changes frequently, test them, and deploy updates reliably. CI ensures that every new change is automatically tested and verified, while CD automates deployment to staging or production environments.
 
