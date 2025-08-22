@@ -191,3 +191,20 @@ Regular Security Audits & Logging
 Description: Continuous monitoring, logging of user activity, and regular security audits will be performed.
 
 Importance: Helps detect suspicious activity early, supports incident response, and ensures long-term system security.
+
+## CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines are automated workflows that help developers integrate code changes frequently, test them, and deploy updates reliably. CI ensures that every new change is automatically tested and verified, while CD automates deployment to staging or production environments.
+
+Importance for the Project
+They reduce human error, speed up development, and ensure that new features or bug fixes reach users faster and with fewer issues. This helps maintain code quality, improves collaboration across the team, and keeps the system stable during frequent updates.
+
+Tools that Could Be Used
+
+GitHub Actions / GitLab CI → for automating build, test, and deployment workflows.
+
+Docker → for containerizing the application to ensure consistency across environments.
+
+Jenkins → as an alternative CI/CD tool for managing complex workflows.
+
+Kubernetes (if scaling is required) → for orchestrating containerized deployments.
