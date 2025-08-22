@@ -26,7 +26,7 @@ Description: Oversees the entire project lifecycle and coordinates between teams
 
 Responsibility: Defines project goals, manages timelines and resources, facilitates communication between stakeholders, and ensures deliverables meet requirements.
 
-# Technology Stacks
+# Technology Stack
 
     Django
 
